@@ -1,0 +1,22 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  -webkit-font-smoothing: auto;
+  letter-spacing: 2px;
+}
+
+/* COLORS */
+:root {
+  --font-dark: rgb(114, 118, 125);
+  --bg-dark: rgb(32, 34, 37);
+  --bg-white: rgb(47, 49, 54);
+  --font-white: rgb(255, 255, 255);
+}
+
+/* KEYFRAMES */
