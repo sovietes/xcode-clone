@@ -1,10 +1,14 @@
 <template>
   <section class="images-container">
     <div class="teste-one">
-      <img src="../../assets/img/central.png" id="first-image" />
+      <img
+        src="../../assets/img/central.png"
+        alt="Central da XCODE"
+        id="first-image"
+      />
     </div>
     <div class="teste-two">
-      <img src="../../assets/img/bp.png" id="second-image" />
+      <img src="../../assets/img/bp.png" alt="BP da XCODE" id="second-image" />
     </div>
   </section>
 </template>

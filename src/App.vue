@@ -1,18 +1,16 @@
 <template>
   <div id="app">
-    <Header />
-    <Main />
+    <MainPage />
   </div>
 </template>
 
 <script>
-import { Header, Main } from './components/organisms'
+import MainPage from './components/templates/MainPage.vue'
 
 export default {
   name: 'App',
   components: {
-    Header,
-    Main
+    MainPage
   },
   created() {
     document.title = 'XCode Clone'

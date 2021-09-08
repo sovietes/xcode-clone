@@ -101,7 +101,8 @@ span {
 
 @media screen and (max-width: 1100px) {
   .text-container {
-    margin-top: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
     width: 70%;
   }
 
