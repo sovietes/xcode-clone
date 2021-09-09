@@ -1,5 +1,5 @@
 <template>
-  <section class="images-container">
+  <section class="images-container" v-scroll-reveal>
     <div class="teste-one">
       <img
         src="../../assets/img/central.png"

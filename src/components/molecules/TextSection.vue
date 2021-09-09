@@ -1,5 +1,5 @@
 <template>
-  <section class="text-container">
+  <section class="text-container" v-scroll-reveal.origin="{ origin: 'right' }">
     <h3 class="title">sobre a xcode</h3>
     <p class="text">
       A XCode é uma empresa independente que surgiu da necessidade tecnológica

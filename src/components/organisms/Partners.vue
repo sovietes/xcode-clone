@@ -1,14 +1,16 @@
 <template>
-  <section class="partners">
-    <h3>Nossos parceiros</h3>
-    <div class="partner">
-      <div class="img">
-        <img src="../../assets/img/goph.png" alt="Logo GOPH" />
-      </div>
-      <div class="text">
-        <p class="name">goph - grupo organizado de polícia habbiana</p>
-        <p class="description">Maior organização policial do Habbo hotel.</p>
-        <a href="#">Ir ao site da GOPH</a>
+  <section class="container">
+    <div class="partners" v-scroll-reveal.origin="{ origin: 'top' }">
+      <h3>Nossos parceiros</h3>
+      <div class="partner">
+        <div class="img">
+          <img src="../../assets/img/goph.png" alt="Logo GOPH" />
+        </div>
+        <div class="text">
+          <p class="name">goph - grupo organizado de polícia habbiana</p>
+          <p class="description">Maior organização policial do Habbo hotel.</p>
+          <a href="#">Ir ao site da GOPH</a>
+        </div>
       </div>
     </div>
   </section>
@@ -19,10 +21,15 @@ export default {}
 </script>
 
 <style lang="css" scoped>
-.partners {
+.container {
   width: 100%;
   height: calc(100vh - 30px);
   background-color: var(--bg-white);
+}
+
+.partners {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,7 +93,7 @@ a:hover {
 }
 
 @media screen and (max-width: 1100px) {
-  .partners {
+  .container {
     padding: 1rem;
   }
 
@@ -109,7 +116,7 @@ a:hover {
 }
 
 @media screen and (max-width: 576px) {
-  .partners {
+  .container {
     height: auto;
     padding-top: 3rem;
     padding-bottom: 3rem;
