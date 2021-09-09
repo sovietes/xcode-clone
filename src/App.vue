@@ -28,4 +28,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+#app {
+  overflow-x: hidden;
+}
+</style>

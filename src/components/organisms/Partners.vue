@@ -107,4 +107,16 @@ a:hover {
     text-align: center;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .partners {
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  h3 {
+    font-size: 1.35rem;
+  }
+}
 </style>

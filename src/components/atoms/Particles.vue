@@ -2,29 +2,44 @@
   <section class="presentation">
     <div id="particles-js"></div>
     <div class="content">
-      <div class="img">
-        <img src="../../assets/img/logo.png" />
-      </div>
-      <vue-typed-js
-        style="display: inline"
-        :strings="[
-          'CRIAÇÃO DE SYSTEMS',
-          'APLICADOR DE AULAS',
-          'EQUIPE DE MARKETING',
-          'SETOR DE INTELIGÊNCIA',
-          'CONSTRUÇÃO DE BASES'
-        ]"
-        :typeSpeed="100"
-        :backSpeed="80"
-        :loop="true"
-        :showCursor="false"
+      <transition
+        enter-active-class="animate__animated animate__zoomInDown"
+        appear
       >
-        <div>
-          <span class="typing"></span>
-          <span class="cursor">|</span>
+        <div class="img">
+          <img src="../../assets/img/logo.png" />
         </div>
-      </vue-typed-js>
-      <a href="#" class="get-xcode">QUERO A XCODE NA MINHA POLÍCIA</a>
+      </transition>
+      <transition
+        enter-active-class="animate__animated animate__bounceInLeft animate__delay-1s"
+        appear
+      >
+        <vue-typed-js
+          style="display: inline"
+          :strings="[
+            'CRIAÇÃO DE SYSTEMS',
+            'APLICADOR DE AULAS',
+            'EQUIPE DE MARKETING',
+            'SETOR DE INTELIGÊNCIA',
+            'CONSTRUÇÃO DE BASES'
+          ]"
+          :typeSpeed="100"
+          :backSpeed="80"
+          :loop="true"
+          :showCursor="false"
+        >
+          <div>
+            <span class="typing"></span>
+            <span class="cursor">|</span>
+          </div>
+        </vue-typed-js>
+      </transition>
+      <transition
+        enter-active-class="animate__animated animate__bounceInRight animate__delay-1s"
+        appear
+      >
+        <a href="#" class="get-xcode">QUERO A XCODE NA MINHA POLÍCIA</a>
+      </transition>
     </div>
   </section>
 </template>

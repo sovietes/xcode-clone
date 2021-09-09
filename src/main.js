@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import './assets/css/global.css'
+import 'animate.css'
 
 import VueTypedJs from 'vue-typed-js'
 

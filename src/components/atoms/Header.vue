@@ -1,6 +1,11 @@
 <template>
   <div class="container">
-    <span>xcode</span>
+    <transition
+      enter-active-class="animate__animated animate__zoomInRight animate__slow"
+      appear
+    >
+      <span>xcode</span>
+    </transition>
   </div>
 </template>
 
